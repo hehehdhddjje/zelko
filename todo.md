@@ -1,0 +1,26 @@
+# Project TODO
+
+- [x] Définir les tables de profils, annonces, conversations et messages sans insérer de données de démonstration.
+- [x] Créer et appliquer une migration de base de données pour les fonctionnalités de marketplace.
+- [x] Utiliser les sessions OAuth existantes et les cookies HTTP sécurisés, sans gestion manuelle côté client.
+- [x] Créer un en-tête de marketplace élégant, responsive et accessible avec parcours de connexion, déconnexion et publication.
+- [x] Créer la page catalogue avec recherche, filtre par catégorie, états de chargement et état vide sans annonces factices.
+- [x] Créer une page de détail d’annonce affichant uniquement les données réellement publiées.
+- [x] Créer un espace profil permettant de modifier la photo, le nom d’utilisateur et la biographie.
+- [x] Créer la route de publication et rendre tous les appels à l’action de mise en vente fonctionnels.
+- [x] Créer les routes de messagerie et supprimer les impasses de navigation liées aux conversations.
+- [x] Ajouter des états d’erreur explicites sur les données de profil et les annonces de l’utilisateur.
+- [x] Revalider les parcours catalogue, détail et profil après ajout des routes associées.
+- [x] Créer le formulaire sécurisé de publication d’annonce avec image, nom, description, catégorie et prix.
+- [x] Enregistrer les images de profils et d’annonces dans le stockage S3 et leurs références en base de données.
+- [x] Créer des conversations privées associées à une annonce entre un acheteur et son vendeur.
+- [x] Créer la boîte de réception et l’historique persistant des messages privés.
+- [x] Vérifier les autorisations : un vendeur ne peut pas se contacter lui-même et seuls les participants peuvent lire ou écrire dans une conversation.
+- [x] Tester le refus d’ouverture d’une conversation par le vendeur de sa propre annonce.
+- [x] Tester le refus de lecture et d’écriture dans une conversation par un utilisateur non participant.
+- [x] Tester l’unicité et la validation principale du nom d’utilisateur.
+- [x] Tester les préconditions de profil et les validations de publication d’annonce.
+- [x] Tester l’absence d’annonce et la précondition de profil lors de l’ouverture d’une conversation.
+- [x] Écrire et exécuter les tests Vitest couvrant les règles métier critiques.
+- [x] Vérifier visuellement les pages principales sur ordinateur et mobile.
+- [ ] Créer un dépôt GitHub privé et téléverser le code source complet.
