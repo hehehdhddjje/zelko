@@ -23,4 +23,4 @@
 - [x] Tester l’absence d’annonce et la précondition de profil lors de l’ouverture d’une conversation.
 - [x] Écrire et exécuter les tests Vitest couvrant les règles métier critiques.
 - [x] Vérifier visuellement les pages principales sur ordinateur et mobile.
-- [ ] Créer un dépôt GitHub privé et téléverser le code source complet.
+- [x] Créer un dépôt GitHub privé et téléverser le code source complet.
